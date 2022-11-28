@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #D3D3D3;
+    
+}
+
+nav h1 {
+    color: #717171;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.onglet {
+    margin-top: 3px;
+    margin-left: 400px;
+}
+
+.onglet a {
+    text-decoration: none;
+    color: black;
+    margin-right: 9px;
+    border-bottom: 1px solid black;
+    scroll-padding-bottom: 5px;
+}
+
+/*@media screen and (max-width:680px) {
+.onglet{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}    
+}*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://dashwire.com/wp-content/uploads/2022/04/the-complete-guide-to-mobile-app-development-2021.png");
+    background-size: cover;
+    color: grey;
+    padding: 40px;
+
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #072862;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+        0 0 20px rgba(255, 255, 255, 1),
+        0 0 40px rgba(255, 255, 255, 1),
+        0 0 80px rgba(255, 255, 255, 1),
+        0 0 160px rgba(255, 255, 255, 1);
+
+}
+
+header h2 {
+    margin-top: -20px;
+    font: 20px;
+    border-bottom: 1px white solid;
+    color: #072862;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+        0 0 20px rgba(255, 255, 255, 1),
+        0 0 40px rgba(255, 255, 255, 1),
+        0 0 80px rgba(255, 255, 255, 1),
+        0 0 160px rgba(255, 255, 255, 1);
+
+
+}
+
+
+
+.milieuDP {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.milieuDP .contenue .cartes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.milieuDP .contenue .cartes .gauche {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+}
+
+.milieuDP .contenue .cartes.droite {
+    flex: 0 0 70%;
+}
+
+.milieuDP .contenue .cartes .droite img {
+    height: 300px;
+    width: 600px;
+
+
+
+}
+
+.gauche ul,
+h1 {
+    color: grey;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 5px solid #D3D3D3;
+    background-color: black;
+    padding: 30px 100px;
+}
+
+footer h1 {
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid black;
+    width: 10%;
+    padding-bottom: 5px;
+}
+
+.colone {
+    display: flex;
+    margin-top: -10px;
+
+}
+
+.colone .format {
+    margin-right: 30px;
+    padding: 50px;
+}
+
+.colone .format p {
+    max-width: 300px;
+}
+
+#formation {
+    color: grey;
+}
+
+footer p {
+    color: grey;
+}
+
+h3 {
+    color: grey;
+}
